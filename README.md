@@ -38,7 +38,7 @@ In case of using the environment, remember to load exactly the same modules from
 
 * There are two ways for executing a job in slurm: interactive and batch. Interactive is only recommended for testing purposes and not for heavy training.
 * All data should be stored in `/work/user/$USER`.
-* Scipts should be executed situated on the home folder of each user.
+* Scripts should be executed situated on the home folder of each user.
 * Execute `sbatch test_script.sh`
 * Monitor the execution with `squeue -j <job_id>`
 
