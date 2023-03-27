@@ -3,11 +3,13 @@
 # Installation for Python 3.9.5 and CUDA 11.3.1
 
 1. Load modules
+Recommended since there's no need to install extra things
 ```
 module load CUDA/11.3.1
 module load Python/3.9.5-GCCcore-10.3.0
 ```
 2. Create the virtual env:
+Extra packages to be installed via:
 ```
 mkdir -p $HOME/venv/<name_env>
 ```
